@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+	<title>Guess Number Game</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-secondary text-dark">
+	<div id="app" class="container mt-3">
+		<div id="top">
+			<h1>Guess Number Game!!</h1>
+		</div>
+		<div>
+			<h2 id="counter"></h2>
+		</div>
+
+		<form class="form-inline mt-4" id="form-game">
+			<label for="guess"></label>
+			<input type="number" class="form-control ml-2" id="input-lines" placeholder="Guess a number" />
+
+			<button class="btn btn-primary ml-2" type="submit">Guess It</button>
+			<button class="btn btn-danger ml-2" type="button" id="buttonLo">
+				Start
+			</button>
+		</form>
+
+		<div id="result">
+			<p></p>
+		</div>
+	</div>
+
+	<script src="guess.js"></script>
+</body>
+
+</html>

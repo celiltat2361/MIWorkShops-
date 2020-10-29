@@ -1,0 +1,28 @@
+html {
+	font-size: 1.5em;
+}
+
+body {
+	color: rgb(238, 228, 228);
+	font-family: 'Baskervville', monospace;
+	font-weight: 400;
+}
+
+#top {
+	display: flex;
+	justify-content: center;
+}
+
+
+#result {
+	display: flex;
+	justify-content: start;
+	margin-top: 1rem;
+}
+
+
+div {
+    display: block;
+}
+
+
